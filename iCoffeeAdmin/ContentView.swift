@@ -18,12 +18,13 @@ struct ContentView: View {
                 Section(header: Text("Active Orders")) {
                     
                     ForEach(self.orderListener.activeOrders ?? []) { order in
-                        
-                        HStack {
-                            Text(order.customerName)
-                            Spacer()
-                            Text("$\(order.amount.clean)")
-                        } // end of hstack
+                        NavigationLink(destination: OrderDetailView(order: order)) {
+                            HStack {
+                                Text(order.customerName)
+                                Spacer()
+                                Text("$\(order.amount.clean)")
+                            } // end of hstack
+                        } //end of nav link
                         
                     } // end of foreach
                 }
@@ -31,18 +32,19 @@ struct ContentView: View {
                 Section(header: Text("Completed Orders")) {
                     
                     ForEach(self.orderListener.completedOrders ?? []) { order in
-                        
-                        HStack {
-                            Text(order.customerName)
-                            Spacer()
-                            Text("$\(order.amount.clean)")
-                        } // end of hstack
-                        
+                        NavigationLink(destination: OrderDetailView(order: order)) {
+                            
+                            HStack {
+                                Text(order.customerName)
+                                Spacer()
+                                Text("$\(order.amount.clean)")
+                            } // end of hstack
+                        } //end of nav link
                     } // end of foreach
                 }
                 // End of section 2
             } // end of list
-            .navigationBarTitle("Orders")
+                .navigationBarTitle("Orders")
         } // end of nav view
     }
 }
