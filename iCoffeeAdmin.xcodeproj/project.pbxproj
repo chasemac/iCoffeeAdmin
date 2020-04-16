@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,11 @@
 		0E486BE62447EE6D006A9751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BE52447EE6D006A9751 /* Assets.xcassets */; };
 		0E486BE92447EE6D006A9751 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BE82447EE6D006A9751 /* Preview Assets.xcassets */; };
 		0E486BEC2447EE6D006A9751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BEA2447EE6D006A9751 /* LaunchScreen.storyboard */; };
+		0E486BF424480464006A9751 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF324480464006A9751 /* GoogleService-Info.plist */; };
+		0E486BF624480522006A9751 /* Firebase Listeners in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF524480522006A9751 /* Firebase Listeners */; };
+		0E486BF82448052C006A9751 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF72448052C006A9751 /* Helpers */; };
+		0E486BFA24480534006A9751 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF924480534006A9751 /* Model */; };
+		2EB1761229C8C24BF72F36E4 /* Pods_iCoffeeAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		0E486BE82447EE6D006A9751 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E486BEB2447EE6D006A9751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E486BED2447EE6D006A9751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E486BF324480464006A9751 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E486BF524480522006A9751 /* Firebase Listeners */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Firebase Listeners"; sourceTree = "<group>"; };
+		0E486BF72448052C006A9751 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
+		0E486BF924480534006A9751 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffeeAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B109A5E0F78F2003E1AA5DBA /* Pods-iCoffeeAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.release.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		F1CCFBD04D320B1CD301B937 /* Pods-iCoffeeAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.debug.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB1761229C8C24BF72F36E4 /* Pods_iCoffeeAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				0E486BDE2447EE6B006A9751 /* iCoffeeAdmin */,
 				0E486BDD2447EE6B006A9751 /* Products */,
+				BA62C92064BDD87A7B406117 /* Pods */,
+				E3F2F5A8CBA75633444EA58D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +75,12 @@
 				0E486BE12447EE6B006A9751 /* SceneDelegate.swift */,
 				0E486BE32447EE6B006A9751 /* ContentView.swift */,
 				0E486BE52447EE6D006A9751 /* Assets.xcassets */,
+				0E486BF924480534006A9751 /* Model */,
+				0E486BF72448052C006A9751 /* Helpers */,
+				0E486BF524480522006A9751 /* Firebase Listeners */,
 				0E486BEA2447EE6D006A9751 /* LaunchScreen.storyboard */,
 				0E486BED2447EE6D006A9751 /* Info.plist */,
+				0E486BF324480464006A9751 /* GoogleService-Info.plist */,
 				0E486BE72447EE6D006A9751 /* Preview Content */,
 			);
 			path = iCoffeeAdmin;
@@ -75,6 +94,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BA62C92064BDD87A7B406117 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCFBD04D320B1CD301B937 /* Pods-iCoffeeAdmin.debug.xcconfig */,
+				B109A5E0F78F2003E1AA5DBA /* Pods-iCoffeeAdmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3F2F5A8CBA75633444EA58D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E486BF02447EE6D006A9751 /* Build configuration list for PBXNativeTarget "iCoffeeAdmin" */;
 			buildPhases = (
+				E2FE9D034601A9EDD8C46DE6 /* [CP] Check Pods Manifest.lock */,
 				0E486BD82447EE6B006A9751 /* Sources */,
 				0E486BD92447EE6B006A9751 /* Frameworks */,
 				0E486BDA2447EE6B006A9751 /* Resources */,
+				C33FED52FFCABE0F39E98DB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +171,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E486BF82448052C006A9751 /* Helpers in Resources */,
 				0E486BEC2447EE6D006A9751 /* LaunchScreen.storyboard in Resources */,
 				0E486BE92447EE6D006A9751 /* Preview Assets.xcassets in Resources */,
 				0E486BE62447EE6D006A9751 /* Assets.xcassets in Resources */,
+				0E486BFA24480534006A9751 /* Model in Resources */,
+				0E486BF424480464006A9751 /* GoogleService-Info.plist in Resources */,
+				0E486BF624480522006A9751 /* Firebase Listeners in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C33FED52FFCABE0F39E98DB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FE9D034601A9EDD8C46DE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCoffeeAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E486BD82447EE6B006A9751 /* Sources */ = {
@@ -282,6 +366,7 @@
 		};
 		0E486BF12447EE6D006A9751 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CCFBD04D320B1CD301B937 /* Pods-iCoffeeAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +387,7 @@
 		};
 		0E486BF22447EE6D006A9751 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B109A5E0F78F2003E1AA5DBA /* Pods-iCoffeeAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
