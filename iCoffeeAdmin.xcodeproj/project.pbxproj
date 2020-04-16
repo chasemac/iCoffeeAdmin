@@ -13,6 +13,7 @@
 		0E4500BE244810C200CCDDBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500BD244810C200CCDDBB /* Extensions.swift */; };
 		0E4500C0244810EA00CCDDBB /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */; };
 		0E4500C22448111D00CCDDBB /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500C12448111D00CCDDBB /* Order.swift */; };
+		0E4500C6244811C400CCDDBB /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500C5244811C400CCDDBB /* FUser.swift */; };
 		0E486BE02447EE6B006A9751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E486BDF2447EE6B006A9751 /* AppDelegate.swift */; };
 		0E486BE22447EE6B006A9751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E486BE12447EE6B006A9751 /* SceneDelegate.swift */; };
 		0E486BE42447EE6B006A9751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E486BE32447EE6B006A9751 /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 		0E4500BD244810C200CCDDBB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
 		0E4500C12448111D00CCDDBB /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0E4500C5244811C400CCDDBB /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
 		0E486BDC2447EE6B006A9751 /* iCoffeeAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffeeAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E486BDF2447EE6B006A9751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E486BE12447EE6B006A9751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4500C32448119D00CCDDBB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0E4500BB244810AE00CCDDBB /* Constants.swift */,
+				0E4500BD244810C200CCDDBB /* Extensions.swift */,
+				0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0E4500C4244811AE00CCDDBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E4500B92448109100CCDDBB /* Drink.swift */,
+				0E4500C12448111D00CCDDBB /* Order.swift */,
+				0E4500C5244811C400CCDDBB /* FUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0E486BD32447EE6B006A9751 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +103,8 @@
 				0E486BE12447EE6B006A9751 /* SceneDelegate.swift */,
 				0E486BE32447EE6B006A9751 /* ContentView.swift */,
 				0E4500B72448107500CCDDBB /* OrderListener.swift */,
-				0E4500B92448109100CCDDBB /* Drink.swift */,
-				0E4500C12448111D00CCDDBB /* Order.swift */,
-				0E4500BB244810AE00CCDDBB /* Constants.swift */,
-				0E4500BD244810C200CCDDBB /* Extensions.swift */,
-				0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */,
+				0E4500C4244811AE00CCDDBB /* Model */,
+				0E4500C32448119D00CCDDBB /* Helpers */,
 				0E486BE52447EE6D006A9751 /* Assets.xcassets */,
 				0E486BEA2447EE6D006A9751 /* LaunchScreen.storyboard */,
 				0E486BED2447EE6D006A9751 /* Info.plist */,
@@ -241,6 +260,7 @@
 				0E4500C0244810EA00CCDDBB /* FirebaseReference.swift in Sources */,
 				0E4500C22448111D00CCDDBB /* Order.swift in Sources */,
 				0E486BE22447EE6B006A9751 /* SceneDelegate.swift in Sources */,
+				0E4500C6244811C400CCDDBB /* FUser.swift in Sources */,
 				0E4500BA2448109100CCDDBB /* Drink.swift in Sources */,
 				0E486BE42447EE6B006A9751 /* ContentView.swift in Sources */,
 				0E4500BC244810AE00CCDDBB /* Constants.swift in Sources */,
