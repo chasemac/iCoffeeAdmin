@@ -1,8 +1,8 @@
 //
 //  Drink.swift
-//  iCoffee
+//  iCoffeeAdmin
 //
-//  Created by Chase McElroy on 4/14/20.
+//  Created by Chase McElroy on 4/15/20.
 //  Copyright © 2020 ChaseMcElroy. All rights reserved.
 //
 
@@ -82,3 +82,4 @@ let drinkData = [
     Drink(id: UUID().uuidString, name: "Iced Latte", imageName: "iced latte", category: Category.cold, description: "The latte is one of the most iconic espresso drinks, favored for its frothy foam topping. In this refreshing iced version, you can easily create foam with cold milk—no steamer needed.", price: 2.50)
     
 ]
+

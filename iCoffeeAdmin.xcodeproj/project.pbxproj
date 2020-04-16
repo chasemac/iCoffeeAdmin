@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4500B82448107500CCDDBB /* OrderListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500B72448107500CCDDBB /* OrderListener.swift */; };
+		0E4500BA2448109100CCDDBB /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500B92448109100CCDDBB /* Drink.swift */; };
+		0E4500BC244810AE00CCDDBB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500BB244810AE00CCDDBB /* Constants.swift */; };
+		0E4500BE244810C200CCDDBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500BD244810C200CCDDBB /* Extensions.swift */; };
+		0E4500C0244810EA00CCDDBB /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */; };
+		0E4500C22448111D00CCDDBB /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4500C12448111D00CCDDBB /* Order.swift */; };
 		0E486BE02447EE6B006A9751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E486BDF2447EE6B006A9751 /* AppDelegate.swift */; };
 		0E486BE22447EE6B006A9751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E486BE12447EE6B006A9751 /* SceneDelegate.swift */; };
 		0E486BE42447EE6B006A9751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E486BE32447EE6B006A9751 /* ContentView.swift */; };
@@ -14,13 +20,16 @@
 		0E486BE92447EE6D006A9751 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BE82447EE6D006A9751 /* Preview Assets.xcassets */; };
 		0E486BEC2447EE6D006A9751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BEA2447EE6D006A9751 /* LaunchScreen.storyboard */; };
 		0E486BF424480464006A9751 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF324480464006A9751 /* GoogleService-Info.plist */; };
-		0E486BF624480522006A9751 /* Firebase Listeners in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF524480522006A9751 /* Firebase Listeners */; };
-		0E486BF82448052C006A9751 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF72448052C006A9751 /* Helpers */; };
-		0E486BFA24480534006A9751 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF924480534006A9751 /* Model */; };
 		2EB1761229C8C24BF72F36E4 /* Pods_iCoffeeAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E4500B72448107500CCDDBB /* OrderListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListener.swift; sourceTree = "<group>"; };
+		0E4500B92448109100CCDDBB /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		0E4500BB244810AE00CCDDBB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0E4500BD244810C200CCDDBB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		0E4500C12448111D00CCDDBB /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		0E486BDC2447EE6B006A9751 /* iCoffeeAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoffeeAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E486BDF2447EE6B006A9751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E486BE12447EE6B006A9751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,9 +39,6 @@
 		0E486BEB2447EE6D006A9751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E486BED2447EE6D006A9751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E486BF324480464006A9751 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		0E486BF524480522006A9751 /* Firebase Listeners */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Firebase Listeners"; sourceTree = "<group>"; };
-		0E486BF72448052C006A9751 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
-		0E486BF924480534006A9751 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffeeAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B109A5E0F78F2003E1AA5DBA /* Pods-iCoffeeAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.release.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.release.xcconfig"; sourceTree = "<group>"; };
 		F1CCFBD04D320B1CD301B937 /* Pods-iCoffeeAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.debug.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,10 +80,13 @@
 				0E486BDF2447EE6B006A9751 /* AppDelegate.swift */,
 				0E486BE12447EE6B006A9751 /* SceneDelegate.swift */,
 				0E486BE32447EE6B006A9751 /* ContentView.swift */,
+				0E4500B72448107500CCDDBB /* OrderListener.swift */,
+				0E4500B92448109100CCDDBB /* Drink.swift */,
+				0E4500C12448111D00CCDDBB /* Order.swift */,
+				0E4500BB244810AE00CCDDBB /* Constants.swift */,
+				0E4500BD244810C200CCDDBB /* Extensions.swift */,
+				0E4500BF244810EA00CCDDBB /* FirebaseReference.swift */,
 				0E486BE52447EE6D006A9751 /* Assets.xcassets */,
-				0E486BF924480534006A9751 /* Model */,
-				0E486BF72448052C006A9751 /* Helpers */,
-				0E486BF524480522006A9751 /* Firebase Listeners */,
 				0E486BEA2447EE6D006A9751 /* LaunchScreen.storyboard */,
 				0E486BED2447EE6D006A9751 /* Info.plist */,
 				0E486BF324480464006A9751 /* GoogleService-Info.plist */,
@@ -171,13 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E486BF82448052C006A9751 /* Helpers in Resources */,
 				0E486BEC2447EE6D006A9751 /* LaunchScreen.storyboard in Resources */,
 				0E486BE92447EE6D006A9751 /* Preview Assets.xcassets in Resources */,
 				0E486BE62447EE6D006A9751 /* Assets.xcassets in Resources */,
-				0E486BFA24480534006A9751 /* Model in Resources */,
 				0E486BF424480464006A9751 /* GoogleService-Info.plist in Resources */,
-				0E486BF624480522006A9751 /* Firebase Listeners in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4500B82448107500CCDDBB /* OrderListener.swift in Sources */,
 				0E486BE02447EE6B006A9751 /* AppDelegate.swift in Sources */,
+				0E4500C0244810EA00CCDDBB /* FirebaseReference.swift in Sources */,
+				0E4500C22448111D00CCDDBB /* Order.swift in Sources */,
 				0E486BE22447EE6B006A9751 /* SceneDelegate.swift in Sources */,
+				0E4500BA2448109100CCDDBB /* Drink.swift in Sources */,
 				0E486BE42447EE6B006A9751 /* ContentView.swift in Sources */,
+				0E4500BC244810AE00CCDDBB /* Constants.swift in Sources */,
+				0E4500BE244810C200CCDDBB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

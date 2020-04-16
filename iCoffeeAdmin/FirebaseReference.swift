@@ -1,8 +1,8 @@
 //
 //  FirebaseReference.swift
-//  iCoffee
+//  iCoffeeAdmin
 //
-//  Created by Chase McElroy on 4/14/20.
+//  Created by Chase McElroy on 4/15/20.
 //  Copyright © 2020 ChaseMcElroy. All rights reserved.
 //
 
@@ -19,3 +19,4 @@ enum FCollectionReference: String {
 func FirebaseReference(_ collectionReference: FCollectionReference) -> CollectionReference {
     return Firestore.firestore().collection(collectionReference.rawValue)
 }
+
