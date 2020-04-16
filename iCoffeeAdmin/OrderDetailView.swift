@@ -16,8 +16,9 @@ struct OrderDetailView: View {
         VStack {
             List {
                 Section(header: Text("Customer")) {
-                    NavigationLink(destination: UserDetailView()) {
+                    NavigationLink(destination: UserDetailView(order: order)) {
                         Text(order.customerName)
+                            .font(.headline)
                     }
                 } // end of section
                 Section(header: Text("Order Items")) {
@@ -36,11 +37,18 @@ struct OrderDetailView: View {
             .navigationBarTitle("Order", displayMode: .inline)
         .navigationBarItems(trailing:
             Button(action: {
-                print("complete order")
+                self.markAsCompleted()
             }, label: {
                 Text("Complete Order")
             })
         )
+    } // end of body
+    
+    private func markAsCompleted() {
+        if !order.isCompleted {
+            self.order.isCompleted = true
+            order.saveOrderToFirestore()
+        }
     }
 }
 

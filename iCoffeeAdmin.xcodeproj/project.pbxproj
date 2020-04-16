@@ -23,6 +23,7 @@
 		0E486BEC2447EE6D006A9751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BEA2447EE6D006A9751 /* LaunchScreen.storyboard */; };
 		0E486BF424480464006A9751 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E486BF324480464006A9751 /* GoogleService-Info.plist */; };
 		0EC784C82448BA4200E7613F /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC784C72448BA4200E7613F /* UserDetailView.swift */; };
+		0EC784CB2448C22B00E7613F /* UserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC784CA2448C22B00E7613F /* UserListener.swift */; };
 		2EB1761229C8C24BF72F36E4 /* Pods_iCoffeeAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		0E486BED2447EE6D006A9751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E486BF324480464006A9751 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0EC784C72448BA4200E7613F /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		0EC784CA2448C22B00E7613F /* UserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListener.swift; sourceTree = "<group>"; };
 		88C887FFBCB363AE68FF134D /* Pods_iCoffeeAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffeeAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B109A5E0F78F2003E1AA5DBA /* Pods-iCoffeeAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.release.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.release.xcconfig"; sourceTree = "<group>"; };
 		F1CCFBD04D320B1CD301B937 /* Pods-iCoffeeAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffeeAdmin.debug.xcconfig"; path = "Target Support Files/Pods-iCoffeeAdmin/Pods-iCoffeeAdmin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +108,7 @@
 				0E486BDF2447EE6B006A9751 /* AppDelegate.swift */,
 				0E486BE12447EE6B006A9751 /* SceneDelegate.swift */,
 				0E486BE32447EE6B006A9751 /* ContentView.swift */,
-				0E4500B72448107500CCDDBB /* OrderListener.swift */,
+				0EC784C92448C21600E7613F /* FirebaseListeners */,
 				0E4500C924481AA000CCDDBB /* OrderDetailView.swift */,
 				0EC784C72448BA4200E7613F /* UserDetailView.swift */,
 				0E4500C4244811AE00CCDDBB /* Model */,
@@ -126,6 +128,15 @@
 				0E486BE82447EE6D006A9751 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EC784C92448C21600E7613F /* FirebaseListeners */ = {
+			isa = PBXGroup;
+			children = (
+				0E4500B72448107500CCDDBB /* OrderListener.swift */,
+				0EC784CA2448C22B00E7613F /* UserListener.swift */,
+			);
+			path = FirebaseListeners;
 			sourceTree = "<group>";
 		};
 		BA62C92064BDD87A7B406117 /* Pods */ = {
@@ -271,6 +282,7 @@
 				0E4500BA2448109100CCDDBB /* Drink.swift in Sources */,
 				0E486BE42447EE6B006A9751 /* ContentView.swift in Sources */,
 				0E4500CA24481AA000CCDDBB /* OrderDetailView.swift in Sources */,
+				0EC784CB2448C22B00E7613F /* UserListener.swift in Sources */,
 				0E4500BC244810AE00CCDDBB /* Constants.swift in Sources */,
 				0E4500BE244810C200CCDDBB /* Extensions.swift in Sources */,
 			);
